@@ -1,0 +1,97 @@
+.wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 40px 4px #00000040;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+.logo {
+    padding: 37px 21px 37px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.logo h2 {
+    font-size: 24px;
+    line-height: 28.8px;
+}
+
+.logo p {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.proposal {
+    padding: 0 21px 0 21px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.proposial-text {
+    width: 447px;
+    margin: 0 auto;
+}
+
+.proposial-text h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 72px;
+}
+
+.proposial-text p {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 23px 0;
+}
+
+.proposial-text a {
+    width: 446px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #000000;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    line-height: 49px;
+    color: #000000;
+}
+
+.proposial-text a:hover {
+    background-color: #d1ccccb7;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.prorosial-slider {
+    width: 772px;
+    margin: 0 auto;
+}
+
+.slider-line {
+    display: flex;
+    overflow: hidden;
+    /* width: 1578px; */
+}
+
+.slider-item {
+    width: 246px;
+    height: 410px;
+    margin-right: 17px;
+}
+
+.slider-item:last-child {
+    margin-right: 0;
+}
