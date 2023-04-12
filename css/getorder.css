@@ -1,0 +1,107 @@
+.getorder {
+    display: none;
+    box-sizing: border-box;
+    max-width: 1239px;
+    min-width: 320px;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+}
+
+.getorder-active {
+    display: block;
+}
+
+.getorder h2 {
+font-size: 60px;
+font-weight: 400;
+line-height: 72px;
+margin-top: 24px;
+}
+
+.getorder p {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.getorder-way {
+    max-width: 727px;
+    min-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000; */
+}
+
+.way-item {
+    /* width: 250px; */
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    /* border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000; */
+}
+
+.way-item p, span {
+    width: 330px;
+    margin: 0 auto;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.way-item p, span {
+    cursor: pointer;
+}
+
+.way-item h2 {
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    text-align: left;
+}
+
+.border-small {
+    width: 727px;
+    /* min-width: 320px; */
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* height: 1px; */
+    border: 0.5px solid #000000;
+    margin-bottom: 40px;
+}
+
+
+.close {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close:hover path {
+    fill: red;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.close:hover span {
+    color: red;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.close svg {
+    margin-bottom: 15px;
+}

@@ -1,0 +1,42 @@
+.chapter-btn {
+    display: block;
+    box-sizing: border-box;
+    max-width: 1239px;
+    min-width: 320px;
+    cursor: pointer;
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 0.5px solid #000000;
+    border-bottom: 0.5px solid #000000;
+}
+
+.chapter-btn p {
+    font-size: 24px;
+    line-height: 28.8px;
+    text-transform: uppercase;
+}
+
+.chapter-btn:hover p {
+    color: red;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.chapter-btn:hover path {
+    fill: red;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.btn-active {
+    display: none;
+}
