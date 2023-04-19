@@ -64,9 +64,6 @@
                         <div class="slider-item">
                             <img src="./img/slider/Rectangle 2.png" alt="pic2">
                         </div>
-                        <div class="slider-item">
-                            <img src="./img/slider/Rectangle 3.png" alt="pic3">
-                        </div>
                     </div>
                     <div class="slider-control">
                         <button class="slider-left slider-active">
@@ -75,9 +72,9 @@
                                 </svg>
                         </button>
                         <div class="slider-dot">
-                            <div class="dot-item 1 dot-active"></div>
-                            <div class="dot-item 2"></div>
-                            <div class="dot-item 3"></div>
+                            <div class="dot-item step-one dot-active"></div>
+                            <div class="dot-item step-two"></div>
+                            <div class="dot-item step-three"></div>
                         </div>
                         <button class="slider-right">
                             <svg width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -187,7 +184,7 @@
                         <div class="param-option">
                             <div class="option-item">
                                 <h4>Металлический подпятник</h4>
-                                <div class="switch">
+                                <div class="switch podpyatnik">
                                     <div class="swtch-dot"></div>
                                 </div>
                             </div>
@@ -201,27 +198,45 @@
                             </div>
                             <div class="option-item">
                                 <h4>Передний ряд</h4>
-                                <div class="switch">
+                                <div class="switch front-row">
                                     <div class="swtch-dot"></div>
                                 </div>
                             </div>
                             <div class="option-item">
                                 <h4>Задний ряд</h4>
-                                <div class="switch">
+                                <div class="switch back-row">
                                     <div class="swtch-dot"></div>
                                 </div>
                             </div>
                             <div class="option-item">
                                 <h4>Багажник / от 1000 р.</h4>
-                                <div class="switch">
-                                    <div class="swtch-dot swtch-dot"></div>
+                                <div class="switch trunk">
+                                    <div class="swtch-dot"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="order-total"></div>
+                <div class="order-total">
+                    <div class="total-option">
+                        <h4>Ваш заказ:</h4>
+                        <p class="option-one">— Комплект ковриков для переднего ряда</p>
+                        <p class="option-two">— Комплект ковриков для заднего ряда</p>
+                        <p class="option-three">— Комплект ковриков для переднего и заднего ряда</p>
+                        <p class="option-four">— Коврик для багажника</p>
+                        <p class="option-five">— Подпятник</p>
+                        <p class="option-six"></p>
+                    </div>
+                    <div class="total-price">
+                        <div class="count-">
+                        <h4>Сумма заказа:</h4>
+                        <p class="total-score">0 p.</p>
+                        <p class="trunks"></p>
+                        </div>
+                        <button class="send-order-btn">Отправить заказ</button>
+                    </div>
+                </div>
 
                 <div class="close equip">
                     <svg width="24" height="16" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -291,5 +306,6 @@
     </div>
 </body>
 <script src="./js/capterBtn.js"></script>
-<script src="./js/counter.js"></script>
+<script src="./js/params.js"></script>
+<script src="./js/slider.js"></script>
 </html>

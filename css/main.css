@@ -85,11 +85,16 @@
 
 .slider-line {
     display: flex;
-    /* overflow: hidden; */
-    position: relative;
+    /*overflow: hidden;
+    */position: relative;
     top: 0;
     left: 0;
     margin-bottom: 56px;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
 }
 
 .slider-item {
@@ -119,23 +124,23 @@
     cursor: pointer;
 }
 
-.slider-right:hover path {
+/* .slider-active path  {
     fill: red;
-    transition: 300ms ease;
-    -webkit-transition: 300ms ease;
-    -moz-transition: 300ms ease;
-    -ms-transition: 300ms ease;
-    -o-transition: 300ms ease;
 }
 
-.slider-left:hover path {
+.slider-active:hover path {
     fill: red;
+}
+
+.slider-right:hover path, 
+.slider-left:hover path {
+    fill: black;
     transition: 300ms ease;
     -webkit-transition: 300ms ease;
     -moz-transition: 300ms ease;
     -ms-transition: 300ms ease;
     -o-transition: 300ms ease;
-}
+} */
 
 .slider-dot {
     display: flex;

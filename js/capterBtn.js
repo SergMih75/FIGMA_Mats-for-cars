@@ -1,7 +1,6 @@
 const chapterBtn = document.querySelectorAll('.chapter-btn');
 const getorder = document.querySelector('.getorder');
 const equipment = document.querySelector('.equipment');
-console.log('equipment: ', equipment);
 const close = document.querySelectorAll('.close');
 
 
@@ -36,7 +35,6 @@ close.forEach((elem) => {
 
 function notActive1() {
     chapterBtn.forEach(function (elem) {
-        console.log(elem);
         if (elem.classList.contains('equip')){
         elem
             .classList
@@ -50,7 +48,6 @@ function notActive1() {
 
 function notActive2() {
     chapterBtn.forEach(function (elem) {
-        console.log(elem);
         if (elem.classList.contains('orderway')){
         elem
             .classList

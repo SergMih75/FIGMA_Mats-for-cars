@@ -331,6 +331,11 @@ margin-top: 24px;
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+    transition: 200ms ease;
+    -webkit-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -ms-transition: 200ms ease;
+    -o-transition: 200ms ease;
 }
 
 .switch:hover {
@@ -346,7 +351,7 @@ margin-top: 24px;
     background-color: #00AB30;
 }
 
-.slider-active:hover {
+.switch-active:hover {
     background-color: #00AB30;
 }
 
@@ -363,9 +368,14 @@ margin-top: 24px;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+    transition: 200ms ease;
+    -webkit-transition: 200ms ease;
+    -moz-transition: 200ms ease;
+    -ms-transition: 200ms ease;
+    -o-transition: 200ms ease;
 }
 
-.swtch-dot {
+.swtch-dot-active {
     left: 34.1px;
 }
 
@@ -378,8 +388,10 @@ margin-top: 24px;
     min-width: 230px;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    padding: 30px 18px 27px 18px;
+    padding: 30px 18px 27px 25px;
     margin-bottom: 28.6px;
     background-color: #efefef;
     border: none;
@@ -388,4 +400,96 @@ margin-top: 24px;
     -moz-border-radius: 1px;
     -ms-border-radius: 1px;
     -o-border-radius: 1px;
+}
+
+.total-option h4,
+.total-price h4 {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0;
+}
+
+
+
+.total-option {
+    width: 593px;
+    border-right: 0.5px solid #000000;
+}
+
+.total-price {
+    width: 593px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.count- {
+    padding-left: 27px;
+}
+
+.send-order-btn {
+    width: 240px;
+    height: 55px;
+    cursor: pointer;
+    border: none;
+    background-color: #00AB30;
+    text-align: center;
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #ffffff;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+
+.send-order-btn:hover {
+    color: #d6601c;
+    transition: 300ms ease;
+    -webkit-transition: 300ms ease;
+    -moz-transition: 300ms ease;
+    -ms-transition: 300ms ease;
+    -o-transition: 300ms ease;
+}
+
+.total-option p,
+.total-price p {
+    font-family: 'Times New Roman';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 0;
+}
+
+.option-one {
+    height: 0;
+    overflow: hidden;
+}
+.option-two {
+    height: 0;
+    overflow: hidden;
+}
+.option-three {
+    height: 0;
+    overflow: hidden;
+}
+.option-four {
+    height: 0;
+    overflow: hidden;
+}
+.option-five {
+    height: 0;
+    overflow: hidden;
+}
+.option-six {
+    height: 0;
+    overflow: hidden;
+}
+
+.option-active {
+    height: 28px;
 }
